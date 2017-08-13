@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CrystalsCollector Game</title>
+	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	 
+	 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="          crossorigin="anonymous"></script>
+
+	 <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<h1>CrystalsCollector!</h1>
+
+				<div id = "instructions">
+
+		<p>You will be given a random number at the start of the game.</p>
+
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+
+		<p>The value of each crystal is hidden from you until you click on it</p>
+
+		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+				</div>
+
+				  <div id ="start">
+
+        			<div id="total"></div>
+    	
+        		<div id="genNumber"></div>
+
+        				
+        				<h4>Wins:</h4><div id="wins"></div>
+        	
+        				<h4>Losses:</h4><div id="losses"></div>
+      			 
+    		</div>
+					<div id = "crystals">
+
+				<img src="assets/images/ruby.PNG" class="ruby" id= "img1" style="width:200px;height:200px;">
+				<img src="assets/images/diamond.PNG" class="diamond" id = "img2" style="width:200px;height:200px;">
+				<img src="assets/images/gemstone.PNG" class="gemstone" id = "img3" style="width:200px;height:200px;">
+				<img src="assets/images/emerald.PNG" class="emerald" id = "img4" style="width:200px;height:200px;">
+
+					</div>
+
+			<div id = "score">
+				<h3>Your total score is</h3>
+				</div>
+
+			<div id = "scoreBoard"></div>
+			
+			
+</body>
+</html>
