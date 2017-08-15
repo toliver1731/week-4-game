@@ -98,13 +98,14 @@
 			function reset(){
       			Random=Math.floor(Math.random()*101+19);
       			console.log(Random)
-      				$('#randomNumber').text(Random);
+      				$('#genNumber').text(Random);
       				crystalPts1= Math.floor(Math.random()*11+1);
      				crystalPts2= Math.floor(Math.random()*11+1);
       				crystalPts3= Math.floor(Math.random()*11+1);
       				crystalPts4= Math.floor(Math.random()*11+1);
       				userScore= 0;
       				$("#scoreBoard").text(userScore);
+      					reset()
      												 } 
 
 
