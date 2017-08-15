@@ -26,10 +26,11 @@
 
 	#scoreBoard {
 
-		background-color: blue
+		background-color: blue;
 		color: white;
-		width: 300px;
+		width: 340px;
 		height: 100px;
+		font-size: 40px;
 
 	}
 
